@@ -1,65 +1,94 @@
 <!DOCTYPE html>
-<html lang="es">
+<html>
 <head>
-   <meta charset="UTF-8">
-   <title>Wingo | Descubre tu ciudad</title>
-   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-   <link rel="stylesheet" href="css/foundation.min.css">
-   <link rel="stylesheet" href="css/main.css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>Wingo | Recibe ofertas de lugares que seguro amarás.</title>
+	<link rel="icon" type="image/png" href="img/favicon.png">
+	<link rel="stylesheet" type="text/css" href="wingo.css"> 
+	<meta name="description" content="Aplicación para recibir ofertas y descubrir lugares en la ciudad de manera inteligente, específicamente lo que te gusta."/>
+	<link rel="canonical" href="http://wingo.io/" />
+	<meta property="og:locale" content="es_ES" />
+	<meta property="og:type" content="website" />
+	<meta property="og:title" content="Wingo | Descubre tu ciudad" />
+	<meta property="og:description" content="Aplicación para recibir ofertas y descubrir lugares de la ciudad de manera inteligente, específicamente lo que te gusta." />
+	<meta property="og:url" content="http://wingo.io/" />
+	<meta property="og:site_name" content="Wingo | Descubre tu ciudad" />
+	<meta property="og:image" content="img/wingo-icon.png" />
+	<meta name="twitter:card" content="summary"/>
+	<meta name="twitter:description" content="I <3 this app, You should use it!"/>
+	<meta name="twitter:title" content="Wingo | Discover places, live experiences, Win great discounts"/>
+	<meta name="twitter:domain" content="Wingo | Descubre tu ciudad"/>
+	<meta name="twitter:image" content="img/wingo-icon.png"/>
+	<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="http://cdn.jsdelivr.net/flexboxgrid/6.3.0/flexboxgrid.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	<link href='https://fonts.googleapis.com/css?family=Lato:400,900' rel='stylesheet' type='text/css'>
+
 </head>
 <body>
-   <header class="Header row">
-      <hgroup class="Header__hgroup small-12 medium-10 columns">
-      <h1 class="Header__title small-12 medium-3 columns">
-         <img src="static/images/Logo-Wingo-orange.svg" alt="Wingo" width="250px">
-      </h1>
-      <h4 class="Header__insight small-12 medium-9 subheader columns">
-         Es la forma fácil y personalizada para descubrir lugarés que te encantarán
-      </h4>
-      </hgroup>
-      <aside class="small-12 medium-2 columns">
-      <p class="row">
-         En desarrollo <br>
-         Mantente al tanto en:
-         <a href="https://twitter.com/WingoTeam" class="icon-twitter columns"> @WingoTeam</a>
-         <a href="https://facebook.com/WinGo-1226323030718543/" class="icon-facebook columns"> Wingo</a>
-      </p>
-      </aside>
-   </header>
-   <div class="row">
-      <div class="callout">
-         <h3>¿Cómo funciona?</h3>
-         <p>
-            <strong>Wingo</strong> aprende tus preferencias y gustos mientras lo usas, y te recomienda los lugares donde tu experiencia será la mejor e invites a tus amigos. Justo como cuando usas Netflix o Spotify, pero en tu ciudad.
-         </p>
-         <h4>Lo que lo hace diferente</h4>
-         <ul class="callout">
-            <li><strong>Personal:</strong> Wingo te hace llegar ofertas de cosas de tu interés, lo que no, lo ignora por ti. </li>
-            <li><strong>Rápido:</strong> Usando la tecnología de tu smartphone podrás explorar los lugares mas cercanos y lo nuevo, como eventos,  música en vivo, bares interesantes, con predicciones inteligentes según la experiencia de personas como tú.</li>
-            <li><strong>Amigable:</strong> Invita a tus amigos y pásala bien, nosotros nos encargamos de recomendarte a donde ir. </li>
-            <li><strong>Divertido:</strong> Sal del sillón, vé al karaoke (si te gusta) o de fiesta con jugosos descuentos </li>
-         </ul>
-         <div class="row text-center">
-            <div class="show-for-small-only">
-               <a href="https://marvelapp.com/ci01hf" class="button"> Probar demo </a>
-            </div>
+	<section class="header">
+		<section class="">
+			<img src="img/logo.svg">
+		</section>
+		
+	</section>
+	<section class="top middle-xs">
+		<div class="container pitch col-xs-12 col-md-5">
+				<h1>Es la forma fácil y personalizada para descubrir lugares que te encantarán</h1>
+		</div>
 
-            <div class="show-for-medium">
-            <h3>Demo:</h3>
-            <iframe src="https://marvelapp.com/ci01hf?emb=1" width="390" height="755" allowTransparency="true" frameborder="0"></iframe>
-            <p> <small class="button alert">En construcción</small> </p>
-            </div>
-         </div>
-      </div>
-      <div class="Header columns">
-         <h4 class="subheader">Próximamente!</h4>
-         <p class="button secondary">Disponible en Play Store</p>
-         <p class="button secondary">Disponible en App Store</p>
-      </div>
-   </div>
-<script src="js/vendor/jquery.min.js"></script>
-<script src="js/vendor/what-input.min.js"></script>
-<script src="js/foundation.min.js"></script>
-<script src="js/app.js"></script>
+	</section>
+	<div class="diferentes">
+		<section class="row col-xs-12">
+			<div class="col-xs-12 col-md">
+				<span class="fa fa-info-circle"></span>
+				<p class="title">Personal</p>
+				<p class="text-center">Wingo te hace llegar ofertas de cosas de tu interés, lo que no, lo ignora por ti.</p>
+			</div>
+			<div class="col-xs-12 col-md">
+				<span class="fa fa-bolt"></span>
+				<p class="title">Rápido</p>
+				<p class="text-center">Usando la tecnología de tu smartphone podrás explorar los lugares mas cercanos y lo nuevo, como eventos, música en vivo, bares interesantes, con predicciones inteligentes según la experiencia de personas como tú.</p>
+			</div>
+			<div class="col-xs-12 col-md">
+				<span class="fa fa-heart"></span>
+				<p class="title">Amigable</p>
+				<p class="text-center">Invita a tus amigos y pásala bien, nosotros nos encargamos de recomendarte a donde ir.</p>
+			</div>
+			<div class="col-xs-12 col-md">
+				<span class="fa fa-hand-peace-o"></span>
+				<p class="title">Divertido</p>
+				<p class="text-center">Sal del sillón, vé al karaoke (si te gusta) o de fiesta con jugosos descuentos.</p>
+			</div>
+		</section>
+	</div>
+	<section class="descripcion container">
+		<div class="row">
+			<div class="col-xs-12 descripcion col-md-8 middle-xs flex">
+				<div>
+					<p class="desc text-center"><strong>¿Cómo funciona?</strong><br />Wingo aprende tus preferencias y gustos mientras lo usas, y te recomienda los lugares donde tu experiencia será la mejor e invites a tus amigos. Justo como cuando usas Netflix o Spotify, pero en tu ciudad.</p>
+				</div>
+			</div>
+			<div class="col-xs-12 col-md-4 iframe">
+				<center>
+					<iframe src="https://marvelapp.com/ci01hf?emb=1" width="300" height="655" allowtransparency="true" frameborder="0"></iframe>
+				</center>
+			</div>
+		</div>
+	</section>
+	<section class="social">
+		<a href="https://facebook.com/WinGo-1226323030718543/"><span class="fa fa-facebook"></span></a>
+		<a href="https://twitter.com/WingoTeam"><span class="fa fa-twitter"></span></a>
+	</section>
+	<footer>
+		<section class="flex">
+			<div class="center">
+				<p class="title prox">PRÓXIMAMENTE</p>
+				<img src="img/play-store.png">
+				<img src="img/app-store-logo.png">
+			</div>
+		</section>
+	</footer>
 </body>
 </html>
